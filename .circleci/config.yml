@@ -5,5 +5,5 @@ workflows:
   deploy:
     jobs:
       - docker/publish:
-          image: jakousa/docker-hy
+          image: skoskipaa/deplo-harjoitus
           tag: 'latest'
